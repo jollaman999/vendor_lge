@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/gee/proprietary/liboemcamera.so:system/lib/liboemcamera.so:qcom \
     vendor/qcom/gee/proprietary/liboemcrypto.so:system/lib/liboemcrypto.so:qcom \
     vendor/qcom/gee/proprietary/libqcci_legacy.so:system/lib/libqcci_legacy.so:qcom \
-    vendor/qcom/gee/proprietary/libqc-opt.so:system/lib/libqc-opt.so:qcom \
     vendor/qcom/gee/proprietary/libqdi.so:system/lib/libqdi.so:qcom \
     vendor/qcom/gee/proprietary/libqdp.so:system/lib/libqdp.so:qcom \
     vendor/qcom/gee/proprietary/libqmi_cci.so:system/lib/libqmi_cci.so:qcom \
@@ -174,57 +173,5 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/gee/proprietary/libizat_core.so:system/vendor/lib/libizat_core.so:qcom \
     vendor/qcom/gee/proprietary/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so:qcom \
     vendor/qcom/gee/proprietary/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom \
-    vendor/qcom/gee/proprietary/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/qcom/gee/proprietary/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx111_video_hd.so:system/lib/libchromatix_imx111_video_hd.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx132_preview.so:system/lib/libchromatix_imx132_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx132_vt.so:system/lib/libchromatix_imx132_vt.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx135_video_hdr.so:system/lib/libchromatix_imx135_video_hdr.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx135_video_hd.so:system/lib/libchromatix_imx135_video_hd.so \
-    vendor/qcom/gee/proprietary/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov2720_zsl.so:system/lib/libchromatix_ov2720_zsl.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov5693_zsl.so:system/lib/libchromatix_ov5693_zsl.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov8825_video_hfr_120fps.so:system/lib/libchromatix_ov8825_video_hfr_120fps.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov8825_video_hfr_60fps.so:system/lib/libchromatix_ov8825_video_hfr_60fps.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov8825_video_hfr_90fps.so:system/lib/libchromatix_ov8825_video_hfr_90fps.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov8825_video_hfr.so:system/lib/libchromatix_ov8825_video_hfr.so \
-    vendor/qcom/gee/proprietary/libchromatix_ov8825_zsl.so:system/lib/libchromatix_ov8825_zsl.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k4e5ya_default_video.so:system/lib/libchromatix_s5k4e5ya_default_video.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k4e5ya_preview.so:system/lib/libchromatix_s5k4e5ya_preview.so \
-    vendor/qcom/gee/proprietary/libchromatix_s5k4e5ya_zsl.so:system/lib/libchromatix_s5k4e5ya_zsl.so \
-    vendor/qcom/gee/proprietary/libHDR.so:system/lib/libHDR.so \
-    vendor/qcom/gee/proprietary/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
-    vendor/qcom/gee/proprietary/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
-    vendor/qcom/gee/proprietary/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/qcom/gee/proprietary/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
-    vendor/qcom/gee/proprietary/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
-    vendor/qcom/gee/proprietary/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
-    vendor/qcom/gee/proprietary/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/qcom/gee/proprietary/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    vendor/qcom/gee/proprietary/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/qcom/gee/proprietary/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
-    vendor/qcom/gee/proprietary/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
-    vendor/qcom/gee/proprietary/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
-    vendor/qcom/gee/proprietary/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
 
 PRODUCT_PACKAGES := libacdbloader
